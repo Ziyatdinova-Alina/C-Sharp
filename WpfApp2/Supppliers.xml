@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Suppliers>
+  <Supplier>
+    <SupplierCode>009</SupplierCode>
+    <SupplierName>A-ENGINEERING</SupplierName>
+    <SupplierAddress>ул. Пушкина, д. 10, г. Москва</SupplierAddress>
+    <SupplierContact>+7 (495) 123-45-67 </SupplierContact>
+  </Supplier>
+  <Supplier>
+    <SupplierCode>052</SupplierCode>
+    <SupplierName>P and D</SupplierName>
+    <SupplierAddress>ул. Ленина, д. 60, г. Новосибирск,</SupplierAddress>
+    <SupplierContact>+7 (937) 123-45-70</SupplierContact>
+  </Supplier>
+  <Supplier>
+    <SupplierCode>102</SupplierCode>
+    <SupplierName>ULTIMATUM</SupplierName>
+    <SupplierAddress>ул. Кирова, д. 80, кв. 81, офис 567, Москва,</SupplierAddress>
+    <SupplierContact>+7 (456) 123-45-75</SupplierContact>
+  </Supplier>
+  <Supplier>
+    <SupplierCode>009</SupplierCode>
+    <SupplierName>A-ENGINEERING</SupplierName>
+    <SupplierAddress>ул. Пушкина, д. 10, г. Москва</SupplierAddress>
+    <SupplierContact>+7 (495) 123-45-67 </SupplierContact>
+  </Supplier>
+</Suppliers>

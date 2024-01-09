@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Supplies>
+  <Supply>
+    <SupplierCode>009</SupplierCode>
+    <DetailCode>00890</DetailCode>
+    <Quantity>3</Quantity>
+    <Date>14-07-21</Date>
+  </Supply>
+  <Supply>
+    <SupplierCode>052</SupplierCode>
+    <DetailCode>24680</DetailCode>
+    <Quantity>72</Quantity>
+    <Date>23-05-22</Date>
+  </Supply>
+  <Supply>
+    <SupplierCode>102</SupplierCode>
+    <DetailCode>13579</DetailCode>
+    <Quantity>23</Quantity>
+    <Date>14-07-23</Date>
+  </Supply>
+</Supplies>

@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Supplies>
+  <Supply>
+    <SupplierCode>1</SupplierCode>
+    <DetailCode>1</DetailCode>
+    <Quantity>6</Quantity>
+    <Date>13-01-22</Date>
+  </Supply>
+  <Supply>
+    <SupplierCode>1</SupplierCode>
+    <DetailCode>2</DetailCode>
+    <Quantity>72</Quantity>
+    <Date>23-05-22</Date>
+  </Supply>
+  <Supply>
+    <SupplierCode>2</SupplierCode>
+    <DetailCode>3</DetailCode>
+    <Quantity>23</Quantity>
+    <Date>14-07-23</Date>
+  </Supply>
+  <Supply>
+    <SupplierCode>1</SupplierCode>
+    <DetailCode>1</DetailCode>
+    <Quantity>1</Quantity>
+    <Date>1</Date>
+  </Supply>
+  <Supply>
+    <SupplierCode>1</SupplierCode>
+    <DetailCode>2</DetailCode>
+    <Quantity>123</Quantity>
+    <Date>qr</Date>
+  </Supply>
+  <Supply>
+    <SupplierCode>1</SupplierCode>
+    <DetailCode>11</DetailCode>
+    <Quantity>1</Quantity>
+    <Date>1</Date>
+  </Supply>
+  <Supply>
+    <SupplierCode>tj</SupplierCode>
+    <DetailCode>rjryjryjyj</DetailCode>
+    <Quantity>rjyrjy</Quantity>
+    <Date>jry</Date>
+  </Supply>
+</Supplies>

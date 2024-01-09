@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Details>
+  <Detail>
+    <DetailCode>2</DetailCode>
+    <DetailName>фвыа</DetailName>
+    <DetailArticle></DetailArticle>
+    <DetailPrice></DetailPrice>
+    <DetailNote></DetailNote>
+  </Detail>
+  <Detail>
+    <DetailCode>3</DetailCode>
+    <DetailName>Манометр</DetailName>
+    <DetailArticle>003</DetailArticle>
+    <DetailPrice>745</DetailPrice>
+    <DetailNote>Примечание3</DetailNote>
+  </Detail>
+  <Detail>
+    <DetailCode>awrg</DetailCode>
+    <DetailName>awrgwegr</DetailName>
+    <DetailArticle>awrgarwg</DetailArticle>
+    <DetailPrice>argawg</DetailPrice>
+    <DetailNote>arwg</DetailNote>
+  </Detail>
+  <Detail>
+    <DetailCode>se</DetailCode>
+    <DetailName>e</DetailName>
+    <DetailArticle>er</DetailArticle>
+    <DetailPrice>erer</DetailPrice>
+    <DetailNote>er</DetailNote>
+  </Detail>
+</Details>

@@ -1,0 +1,109 @@
+﻿<Window x:Class="WpfApp2.glavform"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2"
+        mc:Ignorable="d"
+        Title="glavform" Height="505" Width="1015" ResizeMode="NoResize">
+    <Grid Background="#323232">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1015"/>
+            <ColumnDefinition Width="0*"/>
+        </Grid.ColumnDefinitions>
+        <Menu Height="25" VerticalAlignment="Top" Background="#464646" BorderThickness="0">
+            <Image Source="C:\work\верстка\с\WpfApp2\img\nobg.png" Height="25px" Width="32"/>
+            <MenuItem Header="Поставщики" Click="MenuItem1_Click" Background="#464646" Foreground="#cccccc" BorderThickness="0">
+                <MenuItem Header="Добавить данные" Click="MenuItemDobav_Click" Background="#464646" BorderThickness="0"></MenuItem>
+                <MenuItem Header="Редактировать" Click="MenuItemRed_Click" Background="#464646" BorderThickness="0"></MenuItem>
+                <MenuItem Header="Удалить Данные" Click="MenuItemDel_Click" Background="#464646" BorderThickness="0"></MenuItem>
+                <MenuItem Header="Поиск" Click="MenuItemPoisk_Click" Background="#464646" BorderThickness="0"></MenuItem>
+            </MenuItem>
+            <MenuItem Header="Детали" Click="MenuItem2_Click" Background="#464646" Foreground="#cccccc" BorderThickness="0">
+                <MenuItem Header="Добавить данные" Click="MenuItemDobav_Click" Background="#464646" Foreground="#cccccc" BorderThickness="0"></MenuItem>
+                <MenuItem Header="Редактировать" Click="MenuItemRed_Click" Background="#464646" Foreground="#cccccc" BorderThickness="0"></MenuItem>
+                <MenuItem Header="Удалить Данные" Click="MenuItemDel_Click" Background="#464646" Foreground="#cccccc" BorderThickness="0"></MenuItem>
+                <MenuItem Header="История цен" Click="MenuItemPrice_Click" Background="#464646" Foreground="#cccccc" BorderThickness="0"></MenuItem>
+                <MenuItem Header="Поиск" Click="MenuItemPoisk_Click" Background="#464646" Foreground="#cccccc" BorderThickness="0"></MenuItem>
+            </MenuItem>
+            <MenuItem Header="Поставки" Click="MenuItem3_Click" Background="#464646" Foreground="#cccccc" BorderThickness="0">
+                <MenuItem Header="Добавить данные" Click="MenuItemDobav_Click" Background="#464646" Foreground="#cccccc" BorderThickness="0"></MenuItem>
+                <MenuItem Header="Редактировать" Click="MenuItemRed_Click" Background="#464646" Foreground="#cccccc" BorderThickness="0"></MenuItem>
+                <MenuItem Header="Удалить Данные" Click="MenuItemDel_Click" Background="#464646" Foreground="#cccccc" BorderThickness="0"></MenuItem>
+                <MenuItem Header="Поиск" Click="MenuItemPoisk_Click" Background="#464646" Foreground="#cccccc" BorderThickness="0"></MenuItem>
+            </MenuItem>
+        </Menu>
+        <TextBox x:Name="dobavlenie1" Margin="21,128,574,319" Background="#707070" Foreground="#cccccc" BorderBrush="#606060"/>
+        <TextBox x:Name="dobavlenie2" Margin="21,172,574,275" Background="#707070" Foreground="#cccccc" BorderBrush="#606060"/>
+        <TextBox x:Name="dobavlenie3" Margin="21,216,574,231" Background="#707070" Foreground="#cccccc" BorderBrush="#606060"/>
+        <TextBox x:Name="dobavlenie4" Margin="21,260,574,187" Background="#707070" Foreground="#cccccc" BorderBrush="#606060"/>
+        <TextBox x:Name="dobavlenie5" Visibility ="Hidden" Margin="21,304,574,143" Background="#606060" Foreground="#cccccc" BorderBrush="#606060"/>
+        <Canvas Name="Suppliers" Visibility="Hidden">
+            <Label Content="Код поставщика" Foreground="#cccccc" Height="41" Canvas.Left="17" Canvas.Top="107" HorizontalAlignment="Left" VerticalAlignment="Center" RenderTransformOrigin="0.462,0.163"/>
+            <Label Content="Название поставщика" Foreground="#cccccc" Height="41" Canvas.Left="17" Canvas.Top="150" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+            <Label Content="Адрес поставщика" Foreground="#cccccc" Height="41" Canvas.Left="17" Canvas.Top="193" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+            <Label Content="Телефон Поставщика" Foreground="#cccccc" Height="41" Canvas.Left="17" Canvas.Top="237" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+        </Canvas>
+        <Canvas Name="Details" Visibility="Hidden">
+            <Label Content="Код детали" Foreground="#cccccc" Height="41" Canvas.Left="16" Canvas.Top="107" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+            <Label Content="Название Детали" Foreground="#cccccc" Height="41" Canvas.Left="16" Canvas.Top="150" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+            <Label Content="Артикул Детали" Foreground="#cccccc" Height="41" Canvas.Left="16" Canvas.Top="193" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+            <Label Content="Цена детали" Foreground="#cccccc" Height="41" Canvas.Left="16" Canvas.Top="237" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+            <Label Content="Примечание к детали" Foreground="#cccccc" Height="41" Canvas.Left="16" Canvas.Top="280" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        </Canvas>
+        <Canvas Name="Supplies" Visibility="Hidden">
+            <Label Content="Код поставщика" Foreground="#cccccc" Height="41" Canvas.Left="16" Canvas.Top="107" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+            <Label Content="Код детали" Foreground="#cccccc" Height="41" Canvas.Left="16" Canvas.Top="150" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+            <Label Content="Количество деталей" Foreground="#cccccc" Height="41" Canvas.Left="16" Canvas.Top="193" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+            <Label Content="Дата поставки" Foreground="#cccccc" Height="41" Canvas.Left="16" Canvas.Top="238" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        </Canvas>
+        <Canvas Name="dobav" Visibility="Visible">
+            <Label Content="Добавление" Foreground="#cccccc" Canvas.Left="16" Canvas.Top="37" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+            <Label Foreground="#cccccc" Content="Вы можете добавить новые данные, вписав их в соответствующие &#xD;&#xA;поля ниже:" Canvas.Left="16" Canvas.Top="64" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+            <Button x:Name="buttondobav" Background="#606060" Foreground="#cccccc" Content="Добавить" Click="buttondobav_Click" Height="40" Canvas.Left="21" Canvas.Top="383" HorizontalAlignment="Left" VerticalAlignment="Center" Width="420" BorderBrush="#FF464646"/>
+        </Canvas>
+        <Canvas Name="red" Visibility="Hidden">
+            <Label Content="Редактирование" Foreground="#cccccc" Canvas.Left="16" Canvas.Top="37" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+            <Label Foreground="#cccccc" Content="Вы можете редактировать данные, вписав код в соответствующее &#xD;&#xA;поле ниже:" Canvas.Left="16" Canvas.Top="64" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+            <Button x:Name="buttondored" BorderBrush="#FF464646" Background="#606060" Foreground="#cccccc" Content="Редактировать" Click="buttonred_Click" Height="40" Canvas.Left="21" Canvas.Top="383" HorizontalAlignment="Center" VerticalAlignment="Top" Width="420"/>
+        </Canvas>
+        <Canvas Name="del" Visibility="Hidden">
+            <Label Content="Удаление" Foreground="#cccccc" Canvas.Left="16" Canvas.Top="37" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+            <Label Foreground="#cccccc" Content="Вы можете удалить данные, вписав код в соответствующее &#xD;&#xA;поле ниже:" Canvas.Left="16" Canvas.Top="64" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+            <Button x:Name="buttondodel" BorderBrush="#FF464646" Background="#606060" Foreground="#cccccc" Content="Удалить" Click="buttondel_Click" Height="40" Canvas.Left="21" Canvas.Top="383" HorizontalAlignment="Center" VerticalAlignment="Top" Width="420"/>
+        </Canvas>
+        <Canvas Name="poisk" Visibility="Hidden">
+            <Label Content="Поиск" Foreground="#cccccc" Canvas.Left="16" Canvas.Top="37" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+            <Label Foreground="#cccccc" Content="Вы можете выполнить поиск:" Canvas.Left="16" Canvas.Top="64" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+            <Button x:Name="buttonpoisk" BorderBrush="#FF464646" Background="#606060" Foreground="#cccccc" Content="Поиск" Click="buttonpoisk_Click" Height="40" Canvas.Left="21" Canvas.Top="383" HorizontalAlignment="Center" VerticalAlignment="Top" Width="420"/>
+        </Canvas>
+        <Canvas Name="price" Visibility="Hidden">
+            <Label Content="История цен" Foreground="#cccccc" Canvas.Left="16" Canvas.Top="37" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+            <Label Foreground="#cccccc" Content="Вы можете посмотреть историю изменения цены детали, вписав её код в &#xD;&#xA;поле ниже:" Canvas.Left="16" Canvas.Top="64" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+            <Button x:Name="buttonprice" BorderBrush="#FF464646" Background="#606060" Foreground="#cccccc" Content="Найти" Click="buttonprice_Click" Height="40" Canvas.Left="21" Canvas.Top="383" HorizontalAlignment="Center" VerticalAlignment="Top" Width="420"/>
+        </Canvas>
+        <DataGrid Name="dg" Margin="465,45,43,44" SelectionChanged="dg_SelectionChanged" BorderBrush="#FF464646" Background="#606060" Foreground="#FFCCCCCC" ScrollViewer.CanContentScroll="True">
+            <DataGrid.RowHeaderStyle>
+                <Style TargetType="DataGridRowHeader">
+                    <Setter Property="Background" Value="#606060"/>
+                    <Setter Property="BorderBrush"  Value="#505050"/>
+                </Style>
+            </DataGrid.RowHeaderStyle>
+            <DataGrid.CellStyle>
+                <Style TargetType="DataGridCell">
+                    <Setter Property="Background" Value="#606060"/>
+                    <Setter Property="BorderBrush"  Value="#505050"/>
+
+                </Style>
+            </DataGrid.CellStyle>
+            <DataGrid.ColumnHeaderStyle>
+                <Style TargetType="DataGridColumnHeader">
+                    <Setter Property="Background" Value="#606060"/>
+                    <Setter Property="BorderBrush"  Value="#505050"/>
+
+                </Style>
+            </DataGrid.ColumnHeaderStyle>
+
+        </DataGrid>
+    </Grid>
+</Window>

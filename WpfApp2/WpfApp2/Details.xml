@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Details>
+	<Detail>
+		<DetailCode>00890</DetailCode>
+		<DetailName>Вал SUZUKI 29141-76J00</DetailName>
+		<DetailArticle>1354</DetailArticle>
+		<DetailPrices>
+			<DetailPrice>
+				<PricePrice>1005</PricePrice>
+				<PriceDate>12-01-22</PriceDate>
+			</DetailPrice>
+			<DetailPrice>
+				<PricePrice>1215</PricePrice>
+				<PriceDate>12-03-22</PriceDate>
+			</DetailPrice>
+			<DetailPrice>
+				<PricePrice>1592</PricePrice>
+				<PriceDate>01-09-22</PriceDate>
+			</DetailPrice>
+			<DetailPrice>
+				<PricePrice>2000</PricePrice>
+				<PriceDate>30-12-22</PriceDate>
+			</DetailPrice>
+		</DetailPrices>
+		<DetailNote>Бренд SUZUKI</DetailNote>
+	</Detail>
+	<Detail>
+		<DetailCode>24680</DetailCode>
+		<DetailName>Отопитель ВАЗ 2114</DetailName>
+		<DetailArticle>2342</DetailArticle>
+		<DetailPrices>
+			<DetailPrice>
+				<PricePrice>5234</PricePrice>
+				<PriceDate>05-01-22</PriceDate>
+			</DetailPrice>
+			<DetailPrice>
+				<PricePrice>5543</PricePrice>
+				<PriceDate>16-03-22</PriceDate>
+			</DetailPrice>
+			<DetailPrice>
+				<PricePrice>6012</PricePrice>
+				<PriceDate>07-11-22</PriceDate>
+			</DetailPrice>
+			<DetailPrice>
+				<PricePrice>8300</PricePrice>
+				<PriceDate>11-12-22</PriceDate>
+			</DetailPrice>
+		</DetailPrices>
+		<DetailNote>Кондиционирование</DetailNote>
+	</Detail>
+	<Detail>
+		<DetailCode>13579</DetailCode>
+		<DetailName>АвтоУпор для Mitsubishi ASX 2010-2019</DetailName>
+		<DetailArticle>6978</DetailArticle>
+		<DetailPrices>
+			<DetailPrice>
+				<PricePrice>3008</PricePrice>
+				<PriceDate>31-02-21</PriceDate>
+			</DetailPrice>
+			<DetailPrice>
+				<PricePrice>6200</PricePrice>
+				<PriceDate>24-07-22</PriceDate>
+			</DetailPrice>
+			<DetailPrice>
+				<PricePrice>6300</PricePrice>
+				<PriceDate>26-07-22</PriceDate>
+			</DetailPrice>
+			<DetailPrice>
+				<PricePrice>5120</PricePrice>
+				<PriceDate>21-12-22</PriceDate>
+			</DetailPrice>
+		</DetailPrices>
+		<DetailNote>Газовые упоры капота</DetailNote>
+	</Detail>
+</Details>

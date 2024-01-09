@@ -1,0 +1,20 @@
+﻿<Window x:Class="WpfApp2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2"
+        mc:Ignorable="d"
+        Title="Форма авторизации" Height="480" Width="1015" ResizeMode="NoResize" Foreground="#FFCCCCCC">
+    <Grid Background="#323232">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1015"/>
+            <ColumnDefinition Width="0*"/>
+        </Grid.ColumnDefinitions>
+        <TextBox Background="#464646" BorderBrush="#606060" x:Name="login" Text="Логин:" Margin="245, 100, 245, 289" RenderTransformOrigin="0.5,0.5" IsReadOnly="True" Cursor="AppStarting" Padding="3,3,0,0" Foreground="#FFCCCCCC"/>
+        <TextBox x:Name="loginbox" Margin="245, 125, 245, 289" Background="#707070" BorderBrush="#606060" Padding="3,5,0,0" Foreground="#FFCCCCCC"/>
+        <TextBox Background="#464646" BorderBrush="#606060" x:Name="password" Text="Пароль:" Margin="245, 191, 245, 198" IsReadOnly="True" Padding="3,3,0,0" Foreground="#FFCCCCCC"/>
+        <PasswordBox x:Name="passwordbox" Margin="245, 216, 245, 198" BorderBrush="#606060" Background="#FF707070" Padding="3,5,0,0" Foreground="#FFCCCCCC"/>
+        <Button x:Name="button1" Content="Войти" Margin="245, 302, 245, 94" Click="button1_Click" BorderBrush="#464646" Background="#FF606060" Foreground="#FFCCCCCC"/>
+    </Grid>
+</Window>
